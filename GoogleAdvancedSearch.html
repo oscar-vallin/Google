@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleSearch.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./GoogleSearch.html">Google Search</a>
+      </nav>
+  <div class="container-main">
+      <p>Advannced Search</p>
+    <hr>
+    <div class="container-search">
+            <div class="row-search row-responsive">
+                <label for="1">all these words:</label>
+                <label for="2">this exact word or phrase:</label>
+                <label for="3">any of these words:</label>
+                <label for="4">none of these words:</label>
+            </div>
+            <div>
+                <form action="https://www.google.com/search" class="row-search row-responsive">
+                    <input id="1" type="text" name="as_q">
+                    <input id="2" type="text" name="as_epq">
+                    <input id="3" type="text" name="as_oq">
+                    <input id="4" type="text" name="as_eq">
+                    <div>
+                        <input type="submit" value="Advannced Search">
+                    </div>
+                </form>
+            </div>
+            <div class="row-search">
+            <span>Type the important words: tri-colour rat terrier</span>
+            <span>Put exact words in quotes: "rat terrier"</span>
+            <span>Type OR between all the words you want: miniature OR standard</span>
+            <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+            </div>
+    </div>
+</div>  
+</body>
+</html>
+
